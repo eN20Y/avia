@@ -3,7 +3,7 @@
 $serial = $_GET['serial_number'] ?? '';
 
 $licenses = json_decode(
-    file_get_contents('jkmisa_serverlicense.json'),
+    file_get_contents(__DIR__ . '/jkmisa_serverlicense.json'),
     true
 );
 
