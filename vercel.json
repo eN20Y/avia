@@ -1,13 +1,7 @@
 {
   "functions": {
-    "api/*.php": {
+    "payment-reminder/*.php": {
       "runtime": "vercel-php@0.7.3"
     }
-  },
-  "rewrites": [
-    {
-      "source": "/jkmisa/payment-reminder.php",
-      "destination": "/api/payment-reminder.php"
-    }
-  ]
+  }
 }
