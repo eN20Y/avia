@@ -77,13 +77,13 @@ $companies = [
     |--------------------------------------------------------------------------
     */
 
-    'company2' => [
-        'name' => 'Company 2 Fiber',
-        'short_name' => 'COMPANY 2',
+    'gtech' => [
+        'name' => 'GTECHLINK',
+        'short_name' => 'GTECHLINK',
 
         'contact' => '09234567890',
 
-        'email' => 'billing@company2.com',
+        'email' => 'gtech@gmail.com',
 
         'address' => 'Cebu City, Philippines',
 
